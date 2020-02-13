@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#note it appears that list from blackboard gives weird string
 
 existing={}
 ungroup={}
@@ -12,7 +12,7 @@ with open('/home/chen/Downloads/CSE421/classroom_roster.csv', 'r') as fcr:
 		#print line.split(',')
 		if cnt>1:
 			rawline=line.split(',')
-			username=line.split(',')[0].strip('"').split('@')[0]
+			username=line.split(',')[0].strip('"').split('@')[0]#strip remove leading and trailing, without argument it removes white pspaces
 			if not len(rawline[1])==2:
 				#print ("Line{}:{}".format(cnt,username))#print username
 				existing[str(username.strip('"'))]=1

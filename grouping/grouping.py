@@ -6,7 +6,7 @@ ungroup={}
 group_dict={}
 
 
-with open('/home/chen/Downloads/CSE421/classroom_roster.csv', 'r') as fcr:
+with open('/home/chen/Downloads/CSE421/grouping/classroom_roster.csv', 'r') as fcr:
 	line =fcr.readline()
 	cnt=1
 	while line:

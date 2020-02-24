@@ -5,7 +5,7 @@ existing={}
 ungroup={}
 
 
-with open('/home/chen/Downloads/CSE421/classroom_roster.csv', 'r') as fcr:
+with open('/home/chen/Downloads/CSE421/bb_add_group_name/classroom_roster.csv', 'r') as fcr:
 	line =fcr.readline()
 	cnt=1
 	while line:
@@ -32,8 +32,8 @@ for key in existing:
 	print "existing ",str(type(key)),len(key),key
 new={}
 bb_dict={}
-with open('/home/chen/Downloads/CSE421/out_bb_user_co.csv','w')as out:
-	with open('/home/chen/Downloads/CSE421/bb_user_co.csv', 'r') as fbb:
+with open('/home/chen/Downloads/CSE421/bb_add_group_name/out_bb_user_co.csv','w')as out:
+	with open('/home/chen/Downloads/CSE421/bb_add_group_name/bb_user_co.csv', 'r') as fbb:
 		line =fbb.readline()
 		cnt=1
 		while line:

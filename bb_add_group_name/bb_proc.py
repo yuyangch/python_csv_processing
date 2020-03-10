@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #note it appears that list from blackboard gives weird string
-
+#output a csv file with group name taken from github
 existing={}
 ungroup={}
 

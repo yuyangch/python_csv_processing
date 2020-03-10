@@ -1,6 +1,6 @@
-#!/usr/bin/env python
+#/usr/bin/env python
 #note it appears that list from blackboard gives weird string
-
+#print the grouping and list all email address of group with only two members.
 existing={}
 ungroup={}
 group_dict={}
